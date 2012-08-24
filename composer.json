@@ -1,0 +1,13 @@
+{
+    "name": "widop/phpbb3",
+    "description": "PhpBB3 used with the WidopPhpBBBundle.",
+    "keywords": [ "phpbb" ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Widop",
+            "email": "contact@widop.com"
+        }
+    ]
+}
+

@@ -210,7 +210,7 @@ function login_db($username, $password, $ip = '', $browser = '', $forwarded_for 
 	}
 
 	// Check password ...
-	if (!$row['user_pass_convert'] && phpbb_check_hash($password, $row['user_password']))
+	if (!$row['user_pass_convert'] && ($password === $row['user_password']))
 	{
 		// Check for old password hash...
 		if (strlen($row['user_password']) == 32)
